@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="constainer ">
+            <div class="inputbox flex">
+                <label for="first_value" class="font_inputfield  ">Enter First value</label>
+                <input type="number" pattern="[0-9]" inputmode="numeric" id="first_value" class="input">
+
+                <label for="second_value" class="font_inputfield">Enter Second value</label>
+                <input type="number" id="second_value" pattern="[0-9]" inputmode="numeric" class="input">
+                
+            </div>
+
+            <div class="btns ">
+                <button id="add" class="btn">add</button>
+                <button id="sub" class="btn">substraction</button>
+                <button id="mul" class="btn">multiplication</button>
+                <button id="division" class=" btn">division</button>
+            </div>
+
+            <div class="outputbox  inputbox">
+                <input type="number" class="output " id="outputbo" value="........................................................" readonly>
+            </div>
+        
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
