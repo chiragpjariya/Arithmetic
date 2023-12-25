@@ -11,7 +11,7 @@ let First_Value = document.getElementById('first_value');
 let second_value = document.getElementById('second_value');
 let timers = document.getElementById("timer");
 let btns = document.querySelectorAll('button');
-let outputBox = document.getElementById('outputbox');
+let outputBox = document.getElementById('outputbo');
 
 
 btns.forEach((i) => {
@@ -24,19 +24,19 @@ btns.forEach((i) => {
         else {
             if (e.target.id == 'add') {
                 console.log(parseInt(First_Value.value) + parseInt(second_value.value));
-                outputBox.value = parseInt(First_Value.value) + parseInt(second_value.value);
+                outputbo.value = parseInt(First_Value.value) + parseInt(second_value.value);
             }
             if (e.target.id == 'sub') {
                 console.log(parseInt(First_Value.value) - parseInt(second_value.value));
-                outputBox.value = parseInt(First_Value.value) - parseInt(second_value.value);
+                outputbo.value = parseInt(First_Value.value) - parseInt(second_value.value);
             }
             if (e.target.id == 'mul') {
                 console.log(parseInt(First_Value.value) * parseInt(second_value.value));
-                outputBox.value = parseInt(First_Value.value) * parseInt(second_value.value);
+                outputbo.value = parseInt(First_Value.value) * parseInt(second_value.value);
             }
             if (e.target.id == 'division') {
                 console.log(parseInt(First_Value.value) / parseInt(second_value.value));
-                outputBox.value = parseInt(First_Value.value) / parseInt(second_value.value);
+                outputbo.value = parseInt(First_Value.value) / parseInt(second_value.value);
             }
         }
 
